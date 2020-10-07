@@ -11,7 +11,9 @@ A project by `@dhairyaostwal` 😎
 ### Files included:
 
 ```
+
 1. CREATE.sql
 2. INSERT.sql
-3. 
+3. FUNCTIONS.sql
+
 ```
