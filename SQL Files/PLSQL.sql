@@ -1,12 +1,15 @@
+-- Added PL/SQL Query
+
 do $$ 
-<<first_block>>
 declare
-  film_count integer := 0;
+  order_count integer := 0;
+  d_date date :='2020-02-03';
 begin
    -- get the number of films
    select count(*) 
-   into film_count
-   from film;
+   into order_count
+   from cart where delivery_date = d_date;
    -- display a message
-   raise notice 'The number of films is %', film_count;
-end first_block $$;
+   raise notice 'The number of orders delivered on the following date =  %', order_count;
+end $$;
+
