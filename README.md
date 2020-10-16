@@ -18,5 +18,6 @@ A project by `@dhairyaostwal` 😎
 1. CREATE.sql
 2. INSERT.sql
 3. FUNCTIONS.sql
+4. PLSQL.sql
 
 ```
