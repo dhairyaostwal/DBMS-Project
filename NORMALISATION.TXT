@@ -1,19 +1,26 @@
 customer table
 
-(cust_id)+ = (multiple values for) cart_id and doc_id
+(cust_id)+ = (multiple values for) cart_id 
+[doc_id can never have multiple since many customer won't refer to doctor]
 Hence 1CNF
 
 
 cart table
 
-(cart_id)+ = delivery date and doc_id(which can be multiple values) can be separated into different records
-Hence 1CNF
+(cart_id)+ = delivery_date and product_id(which can be multiple values) can be separated into different tables
+
+Table 1: cart_id, delivery_date
+Table 2: delivery_date, product_id
+Hence 2CNF
 
 
 payment table
 
-(payment_id)+ = (multiple values for) payment_date, payment_method, total amount into different records
-Hence 1CNF
+(payment_id)+ = (multiple values for) payment_date, payment_method into different tables
+Table 1: payment_id, payment_date
+Table 2: payment_date, payment_method
+Hence 2CNF
+
 
 medicine table
 
