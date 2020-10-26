@@ -32,8 +32,3 @@ INSERT INTO MEDICINE_SHOP
 VALUES
     (6, 'RAMAKANT MEDICALS', 'RAMGALI NO. 6', 9829027345);
 
-
--- New trigger
-
--- Trigger to update the total amount of user everytime he adds something to payment table
-
