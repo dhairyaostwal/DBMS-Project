@@ -19,5 +19,6 @@ A project by `@dhairyaostwal` 😎
 2. INSERT.sql
 3. FUNCTIONS.sql
 4. PLSQL.sql
+5. TRIGGERS.sql
 
 ```
