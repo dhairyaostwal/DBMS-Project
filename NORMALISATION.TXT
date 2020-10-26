@@ -1,0 +1,28 @@
+customer table
+
+(cust_id)+ = (multiple values for) cart_id and doc_id
+Hence 1CNF
+
+
+cart table
+
+(cart_id)+ = delivery date and doc_id(which can be multiple values) can be separated into different records
+Hence 1CNF
+
+
+payment table
+
+(payment_id)+ = (multiple values for) payment_date, payment_method, total amount into different records
+Hence 1CNF
+
+medicine table
+
+(shop_id)+ = {all other}
+Hence in 1CNF
+
+
+products table
+
+(product_id)+ = {all other}
+Hence in 1CNF
+
