@@ -3,7 +3,12 @@
 A project by `@dhairyaostwal` 😎
 
 ### ER Diagram
+
 <img src="./ER Diagrams/Latest/ERD.png">
+
+### Relational Database Schema
+
+<img src="./ER Diagrams/Latest/RDS.png">
 
 ### Tech Stack Used:
 
