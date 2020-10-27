@@ -62,6 +62,45 @@ UPDATE PAYMENT SET CUST_ID = 3 WHERE PAYMENT_ID = 3;
 UPDATE PAYMENT SET CUST_ID = 4 WHERE PAYMENT_ID = 4;
 UPDATE PAYMENT SET CUST_ID = 5 WHERE PAYMENT_ID = 5;
 
+insert into PAY2
+    (PAYMENT_DATE)
+values('2019-02-20');
+insert into PAY2
+    (PAYMENT_DATE)
+values('2019-04-20');
+insert into PAY2
+    (PAYMENT_DATE)
+values('2020-06-13');
+insert into PAY2
+    (PAYMENT_DATE)
+values('2020-02-03');
+insert into PAY2
+    (PAYMENT_DATE)
+values('2018-05-28');
+
+insert into PAY3
+    (PAYMENT_DATE, PAYMENT_METHOD)
+values('2019-02-20', 'CASH ON DELIVERY');
+insert into PAY3
+    (PAYMENT_DATE, PAYMENT_METHOD)
+values('2019-04-20','CREDIT/DEBIT CARD');
+insert into PAY3
+    (PAYMENT_DATE, PAYMENT_METHOD)
+values('2020-06-13','CREDIT/DEBIT CARD');
+insert into PAY3
+    (PAYMENT_DATE, PAYMENT_METHOD)
+values('2020-02-03', 'E-WALLETS');
+insert into PAY3
+    (PAYMENT_DATE, PAYMENT_METHOD)
+values('2018-05-28','NETBANKING');
+
+insert into PAYMENT
+    (PAYMENT_DATE, COUPON_APPLIED, TOTAL_AMT, PAYMENT_METHOD)
+values(, 'NO', 900.50, 'E-WALLETS');
+insert into PAYMENT
+    (PAYMENT_DATE, COUPON_APPLIED, TOTAL_AMT, PAYMENT_METHOD)
+values(, 'YES', 1870.00, 'NETBANKING');
+
 -- Inseting Values
 
 insert into CART
@@ -79,6 +118,38 @@ values('4', 2, '2020-02-03');
 insert into CART
     (ITEMS, WISHLISTED, DELIVERY_DATE)
 values('10', 2, '2018-05-30');
+
+insert into CART2
+    (DELIVERY_DATE)
+values('2018-02-21');
+insert into CART2
+    (DELIVERY_DATE)
+values('2019-04-21');
+insert into CART2
+    (DELIVERY_DATE)
+values('2020-06-13');
+insert into CART2
+    (DELIVERY_DATE)
+values('2020-02-03');
+insert into CART2
+    (DELIVERY_DATE)
+values('2018-05-30');
+
+insert into CART3
+    (DELIVERY_DATE, PRODUCT_ID)
+values('2018-02-21',1);
+insert into CART3
+    (DELIVERY_DATE, PRODUCT_ID)
+values('2019-04-21',3);
+insert into CART3
+    (DELIVERY_DATE, PRODUCT_ID)
+values('2020-06-13',4);
+insert into CART3
+    (DELIVERY_DATE, PRODUCT_ID)
+values('2020-02-03',3);
+insert into CART3
+    (DELIVERY_DATE, PRODUCT_ID)
+values('2018-05-30',2);
 
 -- Updating Values in the newly added columns
 
