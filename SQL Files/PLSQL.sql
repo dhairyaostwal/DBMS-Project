@@ -13,3 +13,17 @@ begin
    raise notice 'The number of orders delivered on the following date =  %', order_count;
 end $$;
 
+
+-- PL/SQL to add product whose expiry date is two months away
+-- curr_date date :='2020-02-03';
+do $$ 
+declare
+  med_order text;
+  curr_date date := CURRENT_DATE + integer '2';
+begin
+   select type
+   into med_order
+   from PRODUCTS where expiry_date = curr_date;
+   -- display a message
+   raise notice 'Medicine to be ordered is  %', med_order;
+end $$;
