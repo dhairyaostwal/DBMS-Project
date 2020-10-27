@@ -1,4 +1,4 @@
--- Added PL/SQL Query
+-- Added PL/SQL Query to find the count of ordered medicines
 
 do $$ 
 declare
@@ -14,12 +14,12 @@ begin
 end $$;
 
 
--- PL/SQL to add product whose expiry date is two months away
--- curr_date date :='2020-02-03';
+-- PL/SQL to add product whose expiry date is two days away
+
 do $$ 
 declare
   med_order text;
-  curr_date date := CURRENT_DATE + integer '2';
+  curr_date date := CURRENT_DATE + integer '3';
 begin
    select type
    into med_order
