@@ -3,7 +3,7 @@
 A project by `@dhairyaostwal` 😎
 
 ### ER Diagram
-![ER-Diagram](https://github.com/dhairyaostwal/DBMS-Project/blob/master/ER%20Diagrams/OMS_ER_Diagram.png)
+<img src="./ER Diagrams/Latest/ERD.png">
 
 ### Tech Stack Used:
 
