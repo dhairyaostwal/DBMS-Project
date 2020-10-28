@@ -13,7 +13,9 @@ A project by `@dhairyaostwal` 😎
 ### Tech Stack Used:
 
 ```
-1. PostgresSQL
+
+ PostgresSQL
+ 
 ```
 
 ### Files included:
@@ -25,5 +27,6 @@ A project by `@dhairyaostwal` 😎
 3. FUNCTIONS.sql
 4. PLSQL.sql
 5. TRIGGERS.sql
+6. BASICQUERIES.sql
 
 ```
